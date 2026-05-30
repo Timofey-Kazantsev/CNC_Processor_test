@@ -7,8 +7,8 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QDialog, QVBoxLayout,
 from PyQt5.QtCore import Qt, QThread, pyqtSignal, QTimer
 import hashlib
 
-CURRENT_VERSION = "1.0"
-GITHUB_REPO = "твое_имя/cnc-processor-updates"
+CURRENT_VERSION = "1.2"
+GITHUB_REPO = "Timofey-Kazantsev/CNC_Processor_test"
 
 
 class UpdateCheckThread(QThread):
